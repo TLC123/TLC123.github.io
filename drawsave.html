@@ -1,6 +1,7 @@
+
 <!DOCTYPE html>
-<html>
-<head>
+<!-- saved from url=(0042)file:///D:/g/drawsave.html?theme=midsommar -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <style>
  touch-action: none;
  .lock-screen {
@@ -11,45 +12,44 @@
 }
 </style>
 </head>
-<body    onresize="redraw()" 
->
+<body onresize="redraw()">
  
 
  
-<div id='d3' style="  
+<div id="d3" style="  
   float: right;
   width: 180px;
   border: 0px solid #73AD21;
   padding: 0px;
   "><p>
-<form   action="drawsave.html" method="get" id="themeform" target="_self">
+</p><form action="file:///D:/g/drawsave.html" method="get" id="themeform" target="_self">
   Theme: <input type="text" id="theme" name="theme" value="random">  
-   <button type="submit" form="themeform" value="Submit" autofocus >go</button>
+   <button type="submit" form="themeform" value="Submit" autofocus="">go</button>
 
 </form>
  <br><br>
  Filename: <input type="text" id="myFilenamne" value="drawing.pnt">
  <br><br>
-<button onclick="download('file text', 'myfilename.txt', 'text/plain')">Create file</button>
+<button onclick="download(&#39;file text&#39;, &#39;myfilename.txt&#39;, &#39;text/plain&#39;)">Create file</button>
  <br><br>
-<a href="" id="a">click here to download your file</a>
+<a href="file:///D:/g/drawsave.html?theme=midsommar" id="a">click here to download your file</a>
 
 
  
-</p>
+<p></p>
 </div> 
- <div id='d2' >
+ <div id="d2">
       
-    <canvas id="myDIV"   style="  
+    <canvas id="myDIV" style="  
   
   border: 0px solid #73AD21;
-  padding: 0px;">
+  padding: 0px;" height="693" width="1234">
 	</canvas> 
 	
 	
   </div>
 
-<p id="demo"></p>
+<p id="demo" style="display: none;"></p>
   
 
 
@@ -200,5 +200,6 @@ ctx.stroke();
 }
 </script>
 
-</body>
-</html>
+
+
+</body></html>
